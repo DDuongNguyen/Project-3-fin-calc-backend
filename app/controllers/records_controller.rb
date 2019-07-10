@@ -15,6 +15,12 @@ class RecordsController < ApplicationController
     render json: @record
   end
 
+  def destroy
+    @record = Record.find(params[:id])
+    @record.destroy
+    render json: @record
+  end
+
   private
   def record_params
     params.require(:record).permit(
