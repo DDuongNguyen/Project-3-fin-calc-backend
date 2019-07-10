@@ -4,13 +4,15 @@ class CreateRecords < ActiveRecord::Migration[5.2]
         t.integer :user_id
         t.integer :annual_expense
         t.integer :saving_balance
-        t.integer :birth_date
+        t.integer :age
         t.integer :retirement_age
         t.integer :safe_withdrawal_rate
-        t.integer :monthly_saving
         t.integer :investment_growth
         t.integer :inflation
         t.integer :tax_rate
+        t.integer :target_fund
+        t.integer :fund_at_retirement
+
       t.timestamps
     end
   end
