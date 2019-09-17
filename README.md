@@ -1,24 +1,16 @@
-# README
+# Retirement Catculator
+Retirement Catculator is an app that calculate users ability to retire based upon their inputs.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Ruby on Rails API created using ActiveRecord. Ruby version 2.6.1
 
-Things you may want to cover:
+## How to Install & Use TheNeighborHood API
 
-* Ruby version
+Use your terminal to navigate into the place where you want to clone Retirement Catculator directory and `git clone` the url.
 
-* System dependencies
+In the project directory, you can run: `bundle install` This will install the necessary gems needed to run the backend.
+Run command `rails db:migrate && rails db:seed` in order to set up the tables and the necessary seeded files.
 
-* Configuration
+Run rails s and copy the url in your terminal (more than likely localhost:3000) and open up your browser using the url in order to having a running server that The Neighborhood can make requests to.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### License
+This project is licensed under the Learn.co Educational Content License. Please read LICENSE.md location in the directory or click on the following link (http://learn.co/content-license) for further details.
